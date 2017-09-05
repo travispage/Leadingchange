@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'tve-ff-2100-59530e5b1269d';
+  src:  url('fonts/icomoon.eot?4qk6ge');
+  src:  url('fonts/icomoon.eot?4qk6ge#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?4qk6ge') format('truetype'),
+    url('fonts/icomoon.woff?4qk6ge') format('woff'),
+    url('fonts/icomoon.svg?4qk6ge#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="tve-icm-59530e5b1d2bb-"], [class*="tve-icm-59530e5b1d2bb-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'tve-ff-2100-59530e5b1269d' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.tve-icm-59530e5b1d2bb-office:before {
+  content: "\e903";
+}
+.tve-icm-59530e5b1d2bb-cart:before {
+  content: "\e93a";
+}
+.tve-icm-59530e5b1d2bb-user:before {
+  content: "\e971";
+}
+.tve-icm-59530e5b1d2bb-users:before {
+  content: "\e972";
+}
+.tve-icm-59530e5b1d2bb-user-plus:before {
+  content: "\e973";
+}
+.tve-icm-59530e5b1d2bb-user-check:before {
+  content: "\e975";
+}
+.tve-icm-59530e5b1d2bb-user-tie:before {
+  content: "\e976";
+}
+.tve-icm-59530e5b1d2bb-share2:before {
+  content: "\ea82";
+}
+.tve-icm-59530e5b1d2bb-mail2:before {
+  content: "\ea84";
+}
+.tve-icm-59530e5b1d2bb-google-plus:before {
+  content: "\ea8b";
+}
+.tve-icm-59530e5b1d2bb-google-plus2:before {
+  content: "\ea8c";
+}
+.tve-icm-59530e5b1d2bb-facebook2:before {
+  content: "\ea91";
+}
+.tve-icm-59530e5b1d2bb-instagram:before {
+  content: "\ea92";
+}
+.tve-icm-59530e5b1d2bb-whatsapp:before {
+  content: "\ea93";
+}
+.tve-icm-59530e5b1d2bb-rss:before {
+  content: "\ea9b";
+}
+.tve-icm-59530e5b1d2bb-youtube:before {
+  content: "\ea9d";
+}

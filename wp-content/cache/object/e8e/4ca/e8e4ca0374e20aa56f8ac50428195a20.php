@@ -1,0 +1,37 @@
+M@­Y<?php exit; ?>a:1:{s:7:"content";C:24:"WPSEO_Sitemap_Cache_Data":1713:{a:2:{s:6:"status";s:2:"ok";s:3:"xml";s:1665:"<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>http://leadingchange.com.au/works/</loc>
+		<lastmod>2017-04-12T08:26:06+00:00</lastmod>
+	</url>
+	<url>
+		<loc>http://leadingchange.com.au/works/leading-consumer-products-companies/</loc>
+		<lastmod>2017-04-10T08:30:01+00:00</lastmod>
+		<image:image>
+			<image:loc>http://leadingchange.com.au/wp-content/uploads/2017/04/header1.jpg</image:loc>
+			<image:title><![CDATA[header1]]></image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://leadingchange.com.au/works/bain-helps-transportation-companies/</loc>
+		<lastmod>2017-04-10T08:33:34+00:00</lastmod>
+		<image:image>
+			<image:loc>http://leadingchange.com.au/wp-content/uploads/2016/01/header4.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://leadingchange.com.au/works/developing-a-strategy-and-roadmap/</loc>
+		<lastmod>2017-04-10T08:34:40+00:00</lastmod>
+		<image:image>
+			<image:loc>http://leadingchange.com.au/wp-content/uploads/2016/01/Business-Analysts.jpg</image:loc>
+			<image:title><![CDATA[Business Analysts]]></image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://leadingchange.com.au/works/constructing-a-best-in-class-global/</loc>
+		<lastmod>2017-04-12T08:26:06+00:00</lastmod>
+		<image:image>
+			<image:loc>http://leadingchange.com.au/wp-content/uploads/2016/01/PMO.jpg</image:loc>
+			<image:title><![CDATA[PMO]]></image:title>
+		</image:image>
+	</url>
+</urlset>";}}}

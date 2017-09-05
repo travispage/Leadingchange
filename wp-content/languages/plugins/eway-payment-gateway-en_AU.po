@@ -1,0 +1,1818 @@
+# Translation of Plugins - eWAY Payment Gateway - Stable (latest release) in English (Australia)
+# This file is distributed under the same license as the Plugins - eWAY Payment Gateway - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-03-13 07:32:20+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: en_AU\n"
+"Project-Id-Version: Plugins - eWAY Payment Gateway - Stable (latest release)\n"
+
+#. Author URI of the plugin/theme
+msgid "https://shop.webaware.com.au/"
+msgstr "https://shop.webaware.com.au/"
+
+#. Author of the plugin/theme
+msgid "WebAware"
+msgstr "WebAware"
+
+#. Description of the plugin/theme
+msgid "Integrate some popular WordPress plugins with the eWAY credit card payment gateway"
+msgstr "Integrate some popular WordPress plugins with the eWAY credit card payment gateway"
+
+#. Plugin URI of the plugin/theme
+msgid "https://shop.webaware.com.au/downloads/eway-payment-gateway/"
+msgstr "https://shop.webaware.com.au/downloads/eway-payment-gateway/"
+
+#. Plugin Name of the plugin/theme
+msgid "eWAY Payment Gateway"
+msgstr "eWAY Payment Gateway"
+
+#: views/requires-php.php:10
+msgid "Please upgrade your website hosting. At least PHP %s is recommended."
+msgstr "Please upgrade your website hosting. At least PHP %s is recommended."
+
+#: views/requires-php.php:8
+msgid "eWAY Payment Gateway requires PHP %1$s or higher; your website has PHP %2$s which is <a target=\"_blank\" href=\"%3$s\">old, obsolete, and unsupported</a>."
+msgstr "eWAY Payment Gateway requires PHP %1$s or higher; your website has PHP %2$s which is <a target=\"_blank\" href=\"%3$s\">old, obsolete, and unsupported</a>."
+
+#: views/requires-extensions.php:8
+msgid "eWAY Payment Gateway requires these missing PHP extensions. Please contact your website host to have these extensions installed."
+msgstr "eWAY Payment Gateway requires these missing PHP extensions. Please contact your website host to have these extensions installed."
+
+#: views/admin-wpsc.php:227
+msgctxt "settings field"
+msgid "Email address"
+msgstr "Email address"
+
+#: views/admin-wpsc.php:216
+msgctxt "settings field"
+msgid "Country"
+msgstr "Country"
+
+#: views/admin-wpsc.php:205
+msgctxt "settings field"
+msgid "Postal/Zip code"
+msgstr "Postal/Zip code"
+
+#: views/admin-wpsc.php:194
+msgctxt "settings field"
+msgid "State"
+msgstr "State"
+
+#: views/admin-wpsc.php:183
+msgctxt "settings field"
+msgid "City"
+msgstr "City"
+
+#: views/admin-wpsc.php:172
+msgctxt "settings field"
+msgid "Address"
+msgstr "Address"
+
+#: views/admin-wpsc.php:161
+msgctxt "settings field"
+msgid "Last name"
+msgstr "Last name"
+
+#: views/admin-wpsc.php:150
+msgctxt "settings field"
+msgid "First name"
+msgstr "First name"
+
+#: views/admin-wpsc.php:130
+msgctxt "settings field"
+msgid "Use TH for field labels"
+msgstr "Use TH for field labels"
+
+#: views/admin-wpsc-billing-details.php:14
+msgid "Auth Code:"
+msgstr "Auth Code:"
+
+#: views/admin-wpsc-billing-details.php:11
+msgid "Transaction ID:"
+msgstr "Transaction ID:"
+
+#: views/admin-events-manager.php:128
+msgctxt "settings field"
+msgid "Force SSL for bookings form"
+msgstr "Force SSL for bookings form"
+
+#: templates/awcp-eway-fields.php:56 templates/eventsmanager-eway-fields.php:47
+#: templates/woocommerce-eway-fields.php:49 templates/wpsc-eway-fields.php:50
+msgid "CVN/CVV"
+msgstr "CVN/CVV"
+
+#: templates/awcp-eway-fields.php:50 templates/woocommerce-eway-fields.php:43
+msgctxt "credit card field"
+msgid "Year"
+msgstr "Year"
+
+#: templates/awcp-eway-fields.php:49 templates/eventsmanager-eway-fields.php:41
+#: templates/woocommerce-eway-fields.php:42 templates/wpsc-eway-fields.php:43
+msgid "credit card expiry year"
+msgstr "credit card expiry year"
+
+#: templates/awcp-eway-fields.php:46 templates/woocommerce-eway-fields.php:39
+msgctxt "credit card field"
+msgid "Month"
+msgstr "Month"
+
+#: templates/awcp-eway-fields.php:45 templates/eventsmanager-eway-fields.php:38
+#: templates/woocommerce-eway-fields.php:38 templates/wpsc-eway-fields.php:41
+msgid "credit card expiry month"
+msgstr "credit card expiry month"
+
+#: templates/awcp-eway-fields.php:44 templates/eventsmanager-eway-fields.php:37
+#: templates/woocommerce-eway-fields.php:37 templates/wpsc-eway-fields.php:39
+msgid "Credit Card Expiry"
+msgstr "Credit Card Expiry"
+
+#: templates/awcp-eway-fields.php:37 templates/eventsmanager-eway-fields.php:31
+#: templates/woocommerce-eway-fields.php:30 templates/wpsc-eway-fields.php:32
+#: views/woocommerce-ccfields-card-name.php:8
+msgid "Card Holder's Name"
+msgstr "Card Holder's Name"
+
+#: templates/awcp-eway-fields.php:33 templates/awcp-eway-fields.php:58
+#: templates/eventsmanager-eway-fields.php:27
+#: templates/eventsmanager-eway-fields.php:49
+#: templates/woocommerce-eway-fields.php:26
+#: templates/woocommerce-eway-fields.php:51 templates/wpsc-eway-fields.php:27
+#: templates/wpsc-eway-fields.php:53
+msgid "only digits 0-9 are accepted"
+msgstr "only digits 0-9 are accepted"
+
+#: templates/awcp-eway-fields.php:31 templates/eventsmanager-eway-fields.php:25
+#: templates/woocommerce-eway-fields.php:24 templates/wpsc-eway-fields.php:24
+msgid "Credit Card Number"
+msgstr "Credit Card Number"
+
+#: includes/integrations/class.EwayPaymentsWpsc.php:129
+msgid "No cart ID and no active session!"
+msgstr "No cart ID and no active session!"
+
+#: includes/integrations/class.EwayPaymentsWpsc.php:34
+msgctxt "WP eCommerce payment method display name"
+msgid "eWAY Credit Card Payment"
+msgstr "eWAY Credit Card Payment"
+
+#: includes/integrations/class.EwayPaymentsWpsc.php:27
+msgctxt "WP eCommerce payment method name"
+msgid "eWAY payment gateway"
+msgstr "eWAY payment gateway"
+
+#: includes/integrations/class.EwayPaymentsWoo.php:582
+msgid "Payment authorized"
+msgstr "Payment authorised"
+
+#: includes/integrations/class.EwayPaymentsWoo.php:269
+msgid "Add the verified eWAY Site Seal to your checkout"
+msgstr "Add the verified eWAY Site Seal to your checkout"
+
+#: includes/integrations/class.EwayPaymentsWoo.php:267
+msgid "show the eWAY site seal after the credit card fields"
+msgstr "show the eWAY site seal after the credit card fields"
+
+#: includes/integrations/class.EwayPaymentsWoo.php:266
+msgctxt "settings field"
+msgid "Show eWAY Site Seal"
+msgstr "Show eWAY Site Seal"
+
+#: includes/integrations/class.EwayPaymentsWoo.php:251
+msgid "Ticked, the standard WooCommerce credit card fields will be used. Unticked, a custom template will be used for the credit card fields."
+msgstr "Ticked, the standard WooCommerce credit card fields will be used. Unticked, a custom template will be used for the credit card fields."
+
+#: includes/integrations/class.EwayPaymentsWoo.php:249
+msgid "use WooCommerce standard credit card fields"
+msgstr "use WooCommerce standard credit card fields"
+
+#: includes/integrations/class.EwayPaymentsWoo.php:248
+msgctxt "settings field"
+msgid "Credit card fields"
+msgstr "Credit card fields"
+
+#: includes/integrations/class.EwayPaymentsWoo.php:182
+msgid "Use the sandbox testing environment, no live payments are accepted; use test card number 4444333322221111"
+msgstr "Use the sandbox testing environment, no live payments are accepted; use test card number 4444333322221111"
+
+#: includes/integrations/class.EwayPaymentsWoo.php:180
+msgid "enable sandbox (testing) mode"
+msgstr "enable sandbox (testing) mode"
+
+#: includes/integrations/class.EwayPaymentsWoo.php:179 views/admin-wpsc.php:59
+msgctxt "settings field"
+msgid "Sandbox mode"
+msgstr "Sandbox mode"
+
+#: includes/integrations/class.EwayPaymentsWoo.php:172
+#: views/admin-events-manager.php:78 views/admin-wpsc.php:49
+msgctxt "settings field"
+msgid "Customer ID"
+msgstr "Customer ID"
+
+#: includes/integrations/class.EwayPaymentsWoo.php:116
+msgctxt "WooCommerce payment method description"
+msgid "Pay with your credit card using eWAY secure checkout"
+msgstr "Pay with your credit card using eWAY secure checkout"
+
+#: includes/integrations/class.EwayPaymentsWoo.php:108
+msgctxt "WooCommerce payment method title"
+msgid "Credit card"
+msgstr "Credit card"
+
+#: includes/integrations/class.EwayPaymentsWoo.php:99
+msgid "enable eWAY credit card payment"
+msgstr "enable eWAY credit card payment"
+
+#: includes/integrations/class.EwayPaymentsWoo.php:43
+msgctxt "eway-payment-gateway"
+msgid "Integration with the eWAY credit card payment gateway."
+msgstr "Integration with the eWAY credit card payment gateway."
+
+#: includes/integrations/class.EwayPaymentsWoo.php:42
+msgctxt "WooCommerce admin page heading"
+msgid "eWAY payment gateway"
+msgstr "eWAY payment gateway"
+
+#: includes/integrations/class.EwayPaymentsWoo.php:41
+msgctxt "WooCommerce payment method title"
+msgid "eWAY"
+msgstr "eWAY"
+
+#: includes/integrations/class.EwayPaymentsEventsManager.php:434
+#: includes/integrations/class.EwayPaymentsWpsc.php:202
+msgid "Beagle score: %s"
+msgstr "Beagle score: %s"
+
+#: includes/integrations/class.EwayPaymentsEventsManager.php:431
+msgid "Authcode: %s"
+msgstr "Authcode: %s"
+
+#: includes/integrations/class.EwayPaymentsEventsManager.php:32
+msgctxt "Events Manager booking feedback free"
+msgid "Booking successful. You have not been charged for this booking."
+msgstr "Booking successful. You have not been charged for this booking."
+
+#: includes/integrations/class.EwayPaymentsEventsManager.php:31
+msgctxt "Events Manager booking feedback"
+msgid "Booking successful."
+msgstr "Booking successful."
+
+#: includes/integrations/class.EwayPaymentsEventsManager.php:30
+msgctxt "Events Manager payment method name"
+msgid "Credit Card"
+msgstr "Credit Card"
+
+#: includes/integrations/class.EwayPaymentsEventsManager.php:24
+msgctxt "Events Manager status text"
+msgid "Processing (eWAY)"
+msgstr "Processing (eWAY)"
+
+#: includes/integrations/class.EwayPaymentsEventsManager.php:22
+msgctxt "Events Manager payment method title"
+msgid "eWAY"
+msgstr "eWAY"
+
+#: includes/integrations/class.EwayPaymentsAWPCP3.php:359
+#: includes/integrations/class.EwayPaymentsWoo.php:498
+msgid "eWAY payments is not configured for payments yet"
+msgstr "eWAY payments is not configured for payments yet"
+
+#: includes/integrations/class.EwayPaymentsAWPCP3.php:331
+msgid "use your browser's back button to try again."
+msgstr "use your browser's back button to try again."
+
+#: includes/integrations/class.EwayPaymentsAWPCP3.php:316
+#: includes/integrations/class.EwayPaymentsEventsManager.php:448
+#: includes/integrations/class.EwayPaymentsWoo.php:603
+#: includes/integrations/class.EwayPaymentsWpsc.php:216
+#: includes/integrations/class.EwayPaymentsWpsc.php:221
+msgid "Transaction failed"
+msgstr "Transaction failed"
+
+#: includes/integrations/class.EwayPaymentsAWPCP3.php:212
+msgid "cvn is missing"
+msgstr "cvn is missing"
+
+#: includes/integrations/class.EwayPaymentsAWPCP3.php:211
+msgid "credit card expiry is missing"
+msgstr "credit card expiry is missing"
+
+#: includes/integrations/class.EwayPaymentsAWPCP3.php:183
+msgid "Please enter your credit card details for secure payment via <a target=\"_blank\" href=\"%s\">eWAY</a>."
+msgstr "Please enter your credit card details for secure payment via <a target=\"_blank\" href=\"%s\">eWAY</a>."
+
+#: includes/integrations/class.EwayPaymentsAWPCP3.php:177
+msgid "There was an error processing your payment."
+msgstr "There was an error processing your payment."
+
+#: includes/integrations/class.EwayPaymentsAWPCP3.php:154
+msgctxt "settings label"
+msgid "URL to a custom icon to show for the payment method."
+msgstr "URL to a custom icon to show for the payment method."
+
+#: includes/integrations/class.EwayPaymentsAWPCP3.php:152
+msgctxt "settings field"
+msgid "Payment Method Icon"
+msgstr "Payment Method Icon"
+
+#: includes/integrations/class.EwayPaymentsAWPCP3.php:149
+#: includes/integrations/class.EwayPaymentsWoo.php:277
+msgid "Generate your site seal on the eWAY website, and paste it here"
+msgstr "Generate your site seal on the eWAY website, and paste it here"
+
+#: includes/integrations/class.EwayPaymentsAWPCP3.php:146
+msgctxt "settings field"
+msgid "eWAY Site Seal"
+msgstr "eWAY Site Seal"
+
+#: includes/integrations/class.EwayPaymentsAWPCP3.php:143
+#: includes/integrations/class.EwayPaymentsWoo.php:260
+msgctxt "settings label"
+msgid "Message to show above credit card fields, e.g. \"Visa and Mastercard only\""
+msgstr "Message to show above credit card fields, e.g. \"Visa and Mastercard only\""
+
+#: includes/integrations/class.EwayPaymentsAWPCP3.php:141
+#: includes/integrations/class.EwayPaymentsWoo.php:257
+#: views/admin-events-manager.php:118 views/admin-wpsc.php:141
+msgctxt "settings field"
+msgid "Credit card message"
+msgstr "Credit card message"
+
+#: includes/integrations/class.EwayPaymentsAWPCP3.php:137
+#: includes/integrations/class.EwayPaymentsWoo.php:233
+#: views/admin-events-manager.php:141 views/admin-wpsc.php:113
+msgctxt "settings field"
+msgid "Logging"
+msgstr "Logging"
+
+#: includes/integrations/class.EwayPaymentsAWPCP3.php:134
+#: includes/integrations/class.EwayPaymentsWoo.php:237
+#: views/admin-events-manager.php:151 views/admin-wpsc.php:123
+msgid "the log file can be found in this folder:"
+msgstr "the log file can be found in this folder:"
+
+#: includes/integrations/class.EwayPaymentsAWPCP3.php:133
+#: includes/integrations/class.EwayPaymentsWoo.php:236
+#: views/admin-events-manager.php:150 views/admin-wpsc.php:122
+msgid "Enable logging to assist trouble shooting"
+msgstr "Enable logging to assist trouble shooting"
+
+#: includes/integrations/class.EwayPaymentsAWPCP3.php:130
+#: includes/integrations/class.EwayPaymentsWoo.php:243
+#: views/admin-events-manager.php:148 views/admin-wpsc.php:120
+msgctxt "logging settings"
+msgid "Errors only"
+msgstr "Errors only"
+
+#: includes/integrations/class.EwayPaymentsAWPCP3.php:129
+#: includes/integrations/class.EwayPaymentsWoo.php:242
+#: views/admin-events-manager.php:147 views/admin-wpsc.php:118
+msgctxt "logging settings"
+msgid "All messages"
+msgstr "All messages"
+
+#: includes/integrations/class.EwayPaymentsAWPCP3.php:128
+#: includes/integrations/class.EwayPaymentsWoo.php:241
+#: views/admin-events-manager.php:146 views/admin-wpsc.php:116
+msgctxt "logging settings"
+msgid "Off"
+msgstr "Off"
+
+#: includes/integrations/class.EwayPaymentsAWPCP3.php:124
+msgid "Authorize can be useful when ads must be approved by an admin, allowing you to reject payments for rejected ads."
+msgstr "Authorise can be useful when ads must be approved by an admin, allowing you to reject payments for rejected ads."
+
+#: includes/integrations/class.EwayPaymentsAWPCP3.php:122
+#: includes/integrations/class.EwayPaymentsWoo.php:222
+#: views/admin-events-manager.php:167 views/admin-wpsc.php:107
+msgid "Capture processes the payment immediately. Authorize holds the amount on the customer's card for processing later."
+msgstr "Capture processes the payment immediately. Authorise holds the amount on the customer's card for processing later."
+
+#: includes/integrations/class.EwayPaymentsAWPCP3.php:120
+#: includes/integrations/class.EwayPaymentsWoo.php:220
+#: views/admin-events-manager.php:159 views/admin-wpsc.php:100
+msgctxt "settings field"
+msgid "Payment Method"
+msgstr "Payment Method"
+
+#: includes/integrations/class.EwayPaymentsAWPCP3.php:117
+#: includes/integrations/class.EwayPaymentsWoo.php:228
+#: views/admin-events-manager.php:165 views/admin-wpsc.php:105
+msgctxt "payment method"
+msgid "Authorize"
+msgstr "Authorise"
+
+#: includes/integrations/class.EwayPaymentsAWPCP3.php:116
+#: includes/integrations/class.EwayPaymentsWoo.php:227
+#: views/admin-events-manager.php:164 views/admin-wpsc.php:103
+msgctxt "payment method"
+msgid "Capture"
+msgstr "Capture"
+
+#: includes/integrations/class.EwayPaymentsAWPCP3.php:113
+msgctxt "settings label"
+msgid "Client Side Encryption key from your sandbox account"
+msgstr "Client Side Encryption key from your sandbox account"
+
+#: includes/integrations/class.EwayPaymentsAWPCP3.php:111
+#: includes/integrations/class.EwayPaymentsWoo.php:209
+#: views/admin-events-manager.php:108 views/admin-wpsc.php:91
+msgctxt "settings field"
+msgid "Sandbox Client Side Encryption key"
+msgstr "Sandbox Client Side Encryption key"
+
+#: includes/integrations/class.EwayPaymentsAWPCP3.php:108
+msgctxt "settings label"
+msgid "Rapid API password from your sandbox account"
+msgstr "Rapid API password from your sandbox account"
+
+#: includes/integrations/class.EwayPaymentsAWPCP3.php:106
+#: includes/integrations/class.EwayPaymentsWoo.php:199
+#: views/admin-events-manager.php:98 views/admin-wpsc.php:81
+msgctxt "settings field"
+msgid "Sandbox API password"
+msgstr "Sandbox API password"
+
+#: includes/integrations/class.EwayPaymentsAWPCP3.php:103
+msgctxt "settings label"
+msgid "Rapid API key from your sandbox account"
+msgstr "Rapid API key from your sandbox account"
+
+#: includes/integrations/class.EwayPaymentsAWPCP3.php:101
+#: includes/integrations/class.EwayPaymentsWoo.php:188
+#: views/admin-events-manager.php:88 views/admin-wpsc.php:71
+msgctxt "settings field"
+msgid "Sandbox API key"
+msgstr "Sandbox API key"
+
+#: includes/integrations/class.EwayPaymentsAWPCP3.php:98
+#: includes/integrations/class.EwayPaymentsWoo.php:174
+#: views/admin-events-manager.php:82 views/admin-wpsc.php:53
+msgid "Legacy connections only; please add your API key/password and Client Side Encryption key instead."
+msgstr "Legacy connections only; please add your API key/password and Client Side Encryption key instead."
+
+#: includes/integrations/class.EwayPaymentsAWPCP3.php:96
+msgctxt "settings field"
+msgid "eWAY customer ID"
+msgstr "eWAY customer ID"
+
+#: includes/integrations/class.EwayPaymentsAWPCP3.php:93
+msgctxt "settings label"
+msgid "Client Side Encryption key from your live eWAY account"
+msgstr "Client Side Encryption key from your live eWAY account"
+
+#: includes/integrations/class.EwayPaymentsAWPCP3.php:91
+#: includes/integrations/class.EwayPaymentsWoo.php:161
+#: views/admin-events-manager.php:68 views/admin-wpsc.php:39
+msgctxt "settings field"
+msgid "Client Side Encryption key"
+msgstr "Client Side Encryption key"
+
+#: includes/integrations/class.EwayPaymentsAWPCP3.php:88
+msgctxt "settings label"
+msgid "Rapid API password from your live eWAY account"
+msgstr "Rapid API password from your live eWAY account"
+
+#: includes/integrations/class.EwayPaymentsAWPCP3.php:86
+#: includes/integrations/class.EwayPaymentsWoo.php:151
+#: views/admin-events-manager.php:58 views/admin-wpsc.php:29
+msgctxt "settings field"
+msgid "API password"
+msgstr "API password"
+
+#: includes/integrations/class.EwayPaymentsAWPCP3.php:83
+msgctxt "settings label"
+msgid "Rapid API key from your live eWAY account"
+msgstr "Rapid API key from your live eWAY account"
+
+#: includes/integrations/class.EwayPaymentsAWPCP3.php:81
+#: includes/integrations/class.EwayPaymentsWoo.php:140
+#: views/admin-events-manager.php:48 views/admin-wpsc.php:18
+msgctxt "settings field"
+msgid "API key"
+msgstr "API key"
+
+#: includes/integrations/class.EwayPaymentsAWPCP3.php:78
+msgctxt "settings label"
+msgid "Activate eWAY?"
+msgstr "Activate eWAY?"
+
+#: includes/integrations/class.EwayPaymentsAWPCP3.php:76
+msgctxt "settings field"
+msgid "Activate eWAY?"
+msgstr "Activate eWAY?"
+
+#: includes/integrations/class.EwayPaymentsAWPCP3.php:72
+msgctxt "settings field"
+msgid "eWAY Settings"
+msgstr "eWAY Settings"
+
+#: includes/integrations/class.EwayPaymentsAWPCP3.php:40
+msgctxt "AWPCP payment method description"
+msgid "Credit card payment via eWAY"
+msgstr "Credit card payment via eWAY"
+
+#: includes/integrations/class.EwayPaymentsAWPCP3.php:39
+msgctxt "AWPCP payment method name"
+msgid "eWAY Payment Gateway"
+msgstr "eWAY Payment Gateway"
+
+#: includes/class.EwayPaymentsStoredPayment.php:439
+msgid "Invalid response from eWAY for legacy XML Stored payment"
+msgstr "Invalid response from eWAY for legacy XML Stored payment"
+
+#: includes/class.EwayPaymentsStoredPayment.php:323
+msgid "Error posting eWAY payment to %1$s: %2$s"
+msgstr "Error posting eWAY payment to %1$s: %2$s"
+
+#: includes/class.EwayPaymentsResponseDirectPayment.php:88
+msgid "Invalid response from eWAY for Direct payment"
+msgstr "Invalid response from eWAY for Direct payment"
+
+#: includes/class.EwayPaymentsResponse.php:351
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Style string for Secure Field"
+msgstr "%s: Invalid Style string for Secure Field"
+
+#: includes/class.EwayPaymentsResponse.php:350
+msgctxt "eWAY coded response"
+msgid "%s: Secure Field Invalid Div"
+msgstr "%s: Secure Field Invalid Div"
+
+#: includes/class.EwayPaymentsResponse.php:349
+msgctxt "eWAY coded response"
+msgid "%s: Secure Field Invalid Type"
+msgstr "%s: Secure Field Invalid Type"
+
+#: includes/class.EwayPaymentsResponse.php:348
+msgctxt "eWAY coded response"
+msgid "%s: Invalid TransactionSearch, Invoice Number not found"
+msgstr "%s: Invalid TransactionSearch, Invoice Number not found"
+
+#: includes/class.EwayPaymentsResponse.php:347
+msgctxt "eWAY coded response"
+msgid "%s: Invalid TransactionSearch, Invoice Number is not unique"
+msgstr "%s: Invalid TransactionSearch, Invoice Number is not unique"
+
+#: includes/class.EwayPaymentsResponse.php:346
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Visa Checkout data or decryption failed"
+msgstr "%s: Invalid Visa Checkout data or decryption failed"
+
+#: includes/class.EwayPaymentsResponse.php:345
+msgctxt "eWAY coded response"
+msgid "%s: Encryption failed, missing or invalid key"
+msgstr "%s: Encryption failed, missing or invalid key"
+
+#: includes/class.EwayPaymentsResponse.php:344
+msgctxt "eWAY coded response"
+msgid "%s: Encryption Method Not Supported"
+msgstr "%s: Encryption Method Not Supported"
+
+#: includes/class.EwayPaymentsResponse.php:343
+msgctxt "eWAY coded response"
+msgid "%s: Card type not support by merchant"
+msgstr "%s: Card type not support by merchant"
+
+#: includes/class.EwayPaymentsResponse.php:342
+msgctxt "eWAY coded response"
+msgid "%s: Original transaction already refunded for total amount"
+msgstr "%s: Original transaction already refunded for total amount"
+
+#: includes/class.EwayPaymentsResponse.php:341
+msgctxt "eWAY coded response"
+msgid "%s: Refund amount greater than original transaction"
+msgstr "%s: Refund amount greater than original transaction"
+
+#: includes/class.EwayPaymentsResponse.php:340
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Secure Field One Time Code"
+msgstr "%s: Invalid Secure Field One Time Code"
+
+#: includes/class.EwayPaymentsResponse.php:339
+msgctxt "eWAY coded response"
+msgid "%s: Secure Field has Expired"
+msgstr "%s: Secure Field has Expired"
+
+#: includes/class.EwayPaymentsResponse.php:338
+msgctxt "eWAY coded response"
+msgid "%s: Unable to Create One Time Code for Secure Field"
+msgstr "%s: Unable to Create One Time Code for Secure Field"
+
+#: includes/class.EwayPaymentsResponse.php:337
+msgctxt "eWAY coded response"
+msgid "%s: Client Side Encryption Key Missing or Invalid"
+msgstr "%s: Client Side Encryption Key Missing or Invalid"
+
+#: includes/class.EwayPaymentsResponse.php:336
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Public Key"
+msgstr "%s: Invalid Public Key"
+
+#: includes/class.EwayPaymentsResponse.php:335
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Refund Amount"
+msgstr "%s: Invalid Refund Amount"
+
+#: includes/class.EwayPaymentsResponse.php:334
+msgctxt "eWAY coded response"
+msgid "%s: Authorize not available for Bank/Branch"
+msgstr "%s: Authorise not available for Bank/Branch"
+
+#: includes/class.EwayPaymentsResponse.php:333
+msgctxt "eWAY coded response"
+msgid "%s: Invalid PayPal account details or API signature"
+msgstr "%s: Invalid PayPal account details or API signature"
+
+#: includes/class.EwayPaymentsResponse.php:332
+msgctxt "eWAY coded response"
+msgid "%s: Merchant account is suspended"
+msgstr "%s: Merchant account is suspended"
+
+#: includes/class.EwayPaymentsResponse.php:331
+msgctxt "eWAY coded response"
+msgid "%s: PayPal Error Processing Refund"
+msgstr "%s: PayPal Error Processing Refund"
+
+#: includes/class.EwayPaymentsResponse.php:330
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Auth Transaction ID for Capture/Void"
+msgstr "%s: Invalid Auth Transaction ID for Capture/Void"
+
+#: includes/class.EwayPaymentsResponse.php:329
+msgctxt "eWAY coded response"
+msgid "%s: Checkout not available for Payment Type"
+msgstr "%s: Checkout not available for Payment Type"
+
+#: includes/class.EwayPaymentsResponse.php:328
+msgctxt "eWAY coded response"
+msgid "%s: Transaction has already been completed or voided, operation not permitted"
+msgstr "%s: Transaction has already been completed or voided, operation not permitted"
+
+#: includes/class.EwayPaymentsResponse.php:327
+msgctxt "eWAY coded response"
+msgid "%s: Generic shipping information error"
+msgstr "%s: Generic shipping information error"
+
+#: includes/class.EwayPaymentsResponse.php:326
+msgctxt "eWAY coded response"
+msgid "%s: Generic customer information error"
+msgstr "%s: Generic customer information error"
+
+#: includes/class.EwayPaymentsResponse.php:325
+msgctxt "eWAY coded response"
+msgid "%s: Transaction has not been authorized for Capture/Cancellation"
+msgstr "%s: Transaction has not been authorised for Capture/Cancellation"
+
+#: includes/class.EwayPaymentsResponse.php:324
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Method for Payment Type"
+msgstr "%s: Invalid Method for Payment Type"
+
+#: includes/class.EwayPaymentsResponse.php:323
+msgctxt "eWAY coded response"
+msgid "%s: Invalid encrypted cvn, decryption failed"
+msgstr "%s: Invalid encrypted cvn, decryption failed"
+
+#: includes/class.EwayPaymentsResponse.php:322
+msgctxt "eWAY coded response"
+msgid "%s: Invalid encrypted card number, decryption failed"
+msgstr "%s: Invalid encrypted card number, decryption failed"
+
+#: includes/class.EwayPaymentsResponse.php:321
+msgctxt "eWAY coded response"
+msgid "%s: Selected Payment Type not enabled"
+msgstr "%s: Selected Payment Type not enabled"
+
+#: includes/class.EwayPaymentsResponse.php:320
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Line Items. The line items have been provided, however the totals do not match the TotalAmount field"
+msgstr "%s: Invalid Line Items. The line items have been provided, however the totals do not match the TotalAmount field"
+
+#: includes/class.EwayPaymentsResponse.php:319
+msgctxt "eWAY coded response"
+msgid "%s: Invalid TransactionSearch,no TransactionID or AccessCode specified"
+msgstr "%s: Invalid TransactionSearch,no TransactionID or AccessCode specified"
+
+#: includes/class.EwayPaymentsResponse.php:318
+msgctxt "eWAY coded response"
+msgid "%s: Invalid TransactionSearch, Non numeric Transaction ID"
+msgstr "%s: Invalid TransactionSearch, Non numeric Transaction ID"
+
+#: includes/class.EwayPaymentsResponse.php:317
+msgctxt "eWAY coded response"
+msgid "%s: Invalid TransactionSearch, Filter Match Type"
+msgstr "%s: Invalid TransactionSearch, Filter Match Type"
+
+#: includes/class.EwayPaymentsResponse.php:316
+msgctxt "eWAY coded response"
+msgid "%s: Invalid CreateAccessCodeSharedRequest, LogoUrl"
+msgstr "%s: Invalid CreateAccessCodeSharedRequest, LogoUrl"
+
+#: includes/class.EwayPaymentsResponse.php:315
+msgctxt "eWAY coded response"
+msgid "%s: Invalid CreateAccessCodeSharedRequest, Language"
+msgstr "%s: Invalid CreateAccessCodeSharedRequest, Language"
+
+#: includes/class.EwayPaymentsResponse.php:314
+msgctxt "eWAY coded response"
+msgid "%s: Invalid CreateAccessCodeSharedRequest, HeaderText"
+msgstr "%s: Invalid CreateAccessCodeSharedRequest, HeaderText"
+
+#: includes/class.EwayPaymentsResponse.php:313
+msgctxt "eWAY coded response"
+msgid "%s: Invalid CreateAccessCodeSharedRequest, FooterText"
+msgstr "%s: Invalid CreateAccessCodeSharedRequest, FooterText"
+
+#: includes/class.EwayPaymentsResponse.php:312
+msgctxt "eWAY coded response"
+msgid "%s: Invalid card data on original TransactionID"
+msgstr "%s: Invalid card data on original TransactionID"
+
+#: includes/class.EwayPaymentsResponse.php:311
+msgctxt "eWAY coded response"
+msgid "%s: Invalid DirectRefundRequest, Transaction ID"
+msgstr "%s: Invalid DirectRefundRequest, Transaction ID"
+
+#: includes/class.EwayPaymentsResponse.php:310
+msgctxt "eWAY coded response"
+msgid "%s: Gateway validation error"
+msgstr "%s: Gateway validation error"
+
+#: includes/class.EwayPaymentsResponse.php:309
+msgctxt "eWAY coded response"
+msgid "%s: Invalid transaction for refund"
+msgstr "%s: Invalid transaction for refund"
+
+#: includes/class.EwayPaymentsResponse.php:308
+msgctxt "eWAY coded response"
+msgid "%s: Redundant card details other than expiry year and month"
+msgstr "%s: Redundant card details other than expiry year and month"
+
+#: includes/class.EwayPaymentsResponse.php:307
+msgctxt "eWAY coded response"
+msgid "%s: Unauthorized API Access, Account Not PCI Certified"
+msgstr "%s: Unauthorised API Access, Account Not PCI Certified"
+
+#: includes/class.EwayPaymentsResponse.php:305
+msgctxt "eWAY coded response"
+msgid "%s: Invalid UserAgent"
+msgstr "%s: Invalid UserAgent"
+
+#: includes/class.EwayPaymentsResponse.php:304
+msgctxt "eWAY coded response"
+msgid "%s: Invalid CustomerHostAddress"
+msgstr "%s: Invalid CustomerHostAddress"
+
+#: includes/class.EwayPaymentsResponse.php:303
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Access Code"
+msgstr "%s: Invalid Access Code"
+
+#: includes/class.EwayPaymentsResponse.php:302
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Card Security Code (CVN)"
+msgstr "%s: Invalid Card Security Code (CVN)"
+
+#: includes/class.EwayPaymentsResponse.php:301
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Card Issue Number"
+msgstr "%s: Invalid Card Issue Number"
+
+#: includes/class.EwayPaymentsResponse.php:300
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Card Start Year"
+msgstr "%s: Invalid Card Start Year"
+
+#: includes/class.EwayPaymentsResponse.php:299
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Card Start Month"
+msgstr "%s: Invalid Card Start Month"
+
+#: includes/class.EwayPaymentsResponse.php:298
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Card Expiry Year"
+msgstr "%s: Invalid Card Expiry Year"
+
+#: includes/class.EwayPaymentsResponse.php:297
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Card Expiry Month"
+msgstr "%s: Invalid Card Expiry Month"
+
+#: includes/class.EwayPaymentsResponse.php:296
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Cardholder Name"
+msgstr "%s: Invalid Cardholder Name"
+
+#: includes/class.EwayPaymentsResponse.php:295
+msgctxt "eWAY coded response"
+msgid "%s: Unknown ShippingAddress CountryCode"
+msgstr "%s: Unknown ShippingAddress CountryCode"
+
+#: includes/class.EwayPaymentsResponse.php:294
+msgctxt "eWAY coded response"
+msgid "%s: Unknown Customer CountryCode"
+msgstr "%s: Unknown Customer CountryCode"
+
+#: includes/class.EwayPaymentsResponse.php:293
+msgctxt "eWAY coded response"
+msgid "%s: Invalid ShippingAddress Fax"
+msgstr "%s: Invalid ShippingAddress Fax"
+
+#: includes/class.EwayPaymentsResponse.php:292
+msgctxt "eWAY coded response"
+msgid "%s: Invalid ShippingAddress ShippingMethod"
+msgstr "%s: Invalid ShippingAddress ShippingMethod"
+
+#: includes/class.EwayPaymentsResponse.php:291
+msgctxt "eWAY coded response"
+msgid "%s: Invalid ShippingAddress Country"
+msgstr "%s: Invalid ShippingAddress Country"
+
+#: includes/class.EwayPaymentsResponse.php:290
+msgctxt "eWAY coded response"
+msgid "%s: Invalid ShippingAddress Phone"
+msgstr "%s: Invalid ShippingAddress Phone"
+
+#: includes/class.EwayPaymentsResponse.php:289
+msgctxt "eWAY coded response"
+msgid "%s: Invalid ShippingAddress Email"
+msgstr "%s: Invalid ShippingAddress Email"
+
+#: includes/class.EwayPaymentsResponse.php:288
+msgctxt "eWAY coded response"
+msgid "%s: Invalid ShippingAddress PostalCode"
+msgstr "%s: Invalid ShippingAddress PostalCode"
+
+#: includes/class.EwayPaymentsResponse.php:287
+msgctxt "eWAY coded response"
+msgid "%s: Invalid ShippingAddress State"
+msgstr "%s: Invalid ShippingAddress State"
+
+#: includes/class.EwayPaymentsResponse.php:286
+msgctxt "eWAY coded response"
+msgid "%s: Invalid ShippingAddress City"
+msgstr "%s: Invalid ShippingAddress City"
+
+#: includes/class.EwayPaymentsResponse.php:285
+msgctxt "eWAY coded response"
+msgid "%s: Invalid ShippingAddress Street2"
+msgstr "%s: Invalid ShippingAddress Street2"
+
+#: includes/class.EwayPaymentsResponse.php:284
+msgctxt "eWAY coded response"
+msgid "%s: Invalid ShippingAddress Street1"
+msgstr "%s: Invalid ShippingAddress Street1"
+
+#: includes/class.EwayPaymentsResponse.php:283
+msgctxt "eWAY coded response"
+msgid "%s: Invalid ShippingAddress LastName"
+msgstr "%s: Invalid ShippingAddress LastName"
+
+#: includes/class.EwayPaymentsResponse.php:282
+msgctxt "eWAY coded response"
+msgid "%s: Invalid ShippingAddress FirstName"
+msgstr "%s: Invalid ShippingAddress FirstName"
+
+#: includes/class.EwayPaymentsResponse.php:281
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Customer URL"
+msgstr "%s: Invalid Customer URL"
+
+#: includes/class.EwayPaymentsResponse.php:280
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Customer Fax"
+msgstr "%s: Invalid Customer Fax"
+
+#: includes/class.EwayPaymentsResponse.php:279
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Customer Comments"
+msgstr "%s: Invalid Customer Comments"
+
+#: includes/class.EwayPaymentsResponse.php:278
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Customer Mobile"
+msgstr "%s: Invalid Customer Mobile"
+
+#: includes/class.EwayPaymentsResponse.php:277
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Customer Phone"
+msgstr "%s: Invalid Customer Phone"
+
+#: includes/class.EwayPaymentsResponse.php:276
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Customer Email"
+msgstr "%s: Invalid Customer Email"
+
+#: includes/class.EwayPaymentsResponse.php:275
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Customer PostalCode"
+msgstr "%s: Invalid Customer PostalCode"
+
+#: includes/class.EwayPaymentsResponse.php:274
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Customer State"
+msgstr "%s: Invalid Customer State"
+
+#: includes/class.EwayPaymentsResponse.php:273
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Customer City"
+msgstr "%s: Invalid Customer City"
+
+#: includes/class.EwayPaymentsResponse.php:272
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Customer Street2"
+msgstr "%s: Invalid Customer Street2"
+
+#: includes/class.EwayPaymentsResponse.php:271
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Customer Street1"
+msgstr "%s: Invalid Customer Street1"
+
+#: includes/class.EwayPaymentsResponse.php:270
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Customer JobDescription"
+msgstr "%s: Invalid Customer JobDescription"
+
+#: includes/class.EwayPaymentsResponse.php:269
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Customer CompanyName"
+msgstr "%s: Invalid Customer CompanyName"
+
+#: includes/class.EwayPaymentsResponse.php:268
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Customer Reference"
+msgstr "%s: Invalid Customer Reference"
+
+#: includes/class.EwayPaymentsResponse.php:266
+msgctxt "eWAY coded response"
+msgid "%s: Invalid RedirectURL"
+msgstr "%s: Invalid RedirectURL"
+
+#: includes/class.EwayPaymentsResponse.php:265
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Customer Title"
+msgstr "%s: Invalid Customer Title"
+
+#: includes/class.EwayPaymentsResponse.php:264
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Customer CountryCode"
+msgstr "%s: Invalid Customer CountryCode"
+
+#: includes/class.EwayPaymentsResponse.php:263
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Customer LastName"
+msgstr "%s: Invalid Customer LastName"
+
+#: includes/class.EwayPaymentsResponse.php:262
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Customer FirstName"
+msgstr "%s: Invalid Customer FirstName"
+
+#: includes/class.EwayPaymentsResponse.php:261
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Checkout URL"
+msgstr "%s: Invalid Checkout URL"
+
+#: includes/class.EwayPaymentsResponse.php:260
+msgctxt "eWAY coded response"
+msgid "%s: CheckoutURL Required when CheckoutPayment specified"
+msgstr "%s: CheckoutURL Required when CheckoutPayment specified"
+
+#: includes/class.EwayPaymentsResponse.php:259
+msgctxt "eWAY coded response"
+msgid "%s: RedirectURL Required"
+msgstr "%s: RedirectURL Required"
+
+#: includes/class.EwayPaymentsResponse.php:258
+msgctxt "eWAY coded response"
+msgid "%s: TokenCustomerID Required"
+msgstr "%s: TokenCustomerID Required"
+
+#: includes/class.EwayPaymentsResponse.php:257
+msgctxt "eWAY coded response"
+msgid "%s: Customer Title Required"
+msgstr "%s: Customer Title Required"
+
+#: includes/class.EwayPaymentsResponse.php:256
+msgctxt "eWAY coded response"
+msgid "%s: Customer CountryCode Required"
+msgstr "%s: Customer CountryCode Required"
+
+#: includes/class.EwayPaymentsResponse.php:255
+msgctxt "eWAY coded response"
+msgid "%s: Customer LastName Required"
+msgstr "%s: Customer LastName Required"
+
+#: includes/class.EwayPaymentsResponse.php:254
+msgctxt "eWAY coded response"
+msgid "%s: Customer FirstName Required"
+msgstr "%s: Customer FirstName Required"
+
+#: includes/class.EwayPaymentsResponse.php:253
+msgctxt "eWAY coded response"
+msgid "%s: Customer Required"
+msgstr "%s: Customer Required"
+
+#: includes/class.EwayPaymentsResponse.php:252
+#: includes/class.EwayPaymentsResponse.php:267
+msgctxt "eWAY coded response"
+msgid "%s: Invalid TokenCustomerID"
+msgstr "%s: Invalid TokenCustomerID"
+
+#: includes/class.EwayPaymentsResponse.php:251
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Valid From Date"
+msgstr "%s: Invalid Valid From Date"
+
+#: includes/class.EwayPaymentsResponse.php:250
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Issue Number"
+msgstr "%s: Invalid Issue Number"
+
+#: includes/class.EwayPaymentsResponse.php:249
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Expiry Date"
+msgstr "%s: Invalid Expiry Date"
+
+#: includes/class.EwayPaymentsResponse.php:248
+msgctxt "eWAY coded response"
+msgid "%s: Card Security Code (CVN) Required"
+msgstr "%s: Card Security Code (CVN) Required"
+
+#: includes/class.EwayPaymentsResponse.php:247
+msgctxt "eWAY coded response"
+msgid "%s: Card Number Required"
+msgstr "%s: Card Number Required"
+
+#: includes/class.EwayPaymentsResponse.php:246
+msgctxt "eWAY coded response"
+msgid "%s: Cardholder Name Required"
+msgstr "%s: Cardholder Name Required"
+
+#: includes/class.EwayPaymentsResponse.php:245
+msgctxt "eWAY coded response"
+msgid "%s: Unknown Payment CurrencyCode"
+msgstr "%s: Unknown Payment CurrencyCode"
+
+#: includes/class.EwayPaymentsResponse.php:244
+msgctxt "eWAY coded response"
+msgid "%s: Payment CurrencyCode Required"
+msgstr "%s: Payment CurrencyCode Required"
+
+#: includes/class.EwayPaymentsResponse.php:243
+msgctxt "eWAY coded response"
+msgid "%s: Payment Required"
+msgstr "%s: Payment Required"
+
+#: includes/class.EwayPaymentsResponse.php:242
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Payment CurrencyCode"
+msgstr "%s: Invalid Payment CurrencyCode"
+
+#: includes/class.EwayPaymentsResponse.php:241
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Payment InvoiceReference"
+msgstr "%s: Invalid Payment InvoiceReference"
+
+#: includes/class.EwayPaymentsResponse.php:240
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Payment InvoiceNumber"
+msgstr "%s: Invalid Payment InvoiceNumber"
+
+#: includes/class.EwayPaymentsResponse.php:239
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Payment InvoiceDescription"
+msgstr "%s: Invalid Payment InvoiceDescription"
+
+#: includes/class.EwayPaymentsResponse.php:238
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Payment TotalAmount"
+msgstr "%s: Invalid Payment TotalAmount"
+
+#: includes/class.EwayPaymentsResponse.php:237
+msgctxt "eWAY coded response"
+msgid "%s: Invalid TransactionType, account not certified for eCome only MOTO or Recurring available"
+msgstr "%s: Invalid TransactionType, account not certified for eCome only MOTO or Recurring available"
+
+#: includes/class.EwayPaymentsResponse.php:236
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Request Method"
+msgstr "%s: Invalid Request Method"
+
+#: includes/class.EwayPaymentsResponse.php:235
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Request PartnerID"
+msgstr "%s: Invalid Request PartnerID"
+
+#: includes/class.EwayPaymentsResponse.php:234
+msgctxt "eWAY coded response"
+msgid "%s: Invalid DeviceID"
+msgstr "%s: Invalid DeviceID"
+
+#: includes/class.EwayPaymentsResponse.php:233
+msgctxt "eWAY coded response"
+msgid "%s: Invalid CustomerIP"
+msgstr "%s: Invalid CustomerIP"
+
+#: includes/class.EwayPaymentsResponse.php:232
+msgctxt "eWAY coded response"
+msgid "%s: Validation error"
+msgstr "%s: Validation error"
+
+#: includes/class.EwayPaymentsResponse.php:230
+msgctxt "eWAY coded response"
+msgid "%s: Unknown error returned by gateway"
+msgstr "%s: Unknown error returned by gateway"
+
+#: includes/class.EwayPaymentsResponse.php:229
+msgctxt "eWAY coded response"
+msgid "%s: Incomplete (Access Code in progress/incomplete)"
+msgstr "%s: Incomplete (Access Code in progress/incomplete)"
+
+#: includes/class.EwayPaymentsResponse.php:228
+msgctxt "eWAY coded response"
+msgid "%s: PayPal Transaction Created"
+msgstr "%s: PayPal Transaction Created"
+
+#: includes/class.EwayPaymentsResponse.php:227
+msgctxt "eWAY coded response"
+msgid "%s: Completed 3dSecure"
+msgstr "%s: Completed 3dSecure"
+
+#: includes/class.EwayPaymentsResponse.php:226
+msgctxt "eWAY coded response"
+msgid "%s: Routed 3dSecure"
+msgstr "%s: Routed 3dSecure"
+
+#: includes/class.EwayPaymentsResponse.php:225
+msgctxt "eWAY coded response"
+msgid "%s: Started 3dSecure"
+msgstr "%s: Started 3dSecure"
+
+#: includes/class.EwayPaymentsResponse.php:224
+msgctxt "eWAY coded response"
+msgid "%s: PayPal Settings Error"
+msgstr "%s: PayPal Settings Error"
+
+#: includes/class.EwayPaymentsResponse.php:223
+msgctxt "eWAY coded response"
+msgid "%s: PayPal Connection Error"
+msgstr "%s: PayPal Connection Error"
+
+#: includes/class.EwayPaymentsResponse.php:220
+msgctxt "eWAY coded response"
+msgid "%s: Card issuing country differs from IP address country"
+msgstr "%s: Card issuing country differs from IP address country"
+
+#: includes/class.EwayPaymentsResponse.php:219
+msgctxt "eWAY coded response"
+msgid "%s: High Risk Email Address and amount"
+msgstr "%s: High Risk Email Address and amount"
+
+#: includes/class.EwayPaymentsResponse.php:218
+msgctxt "eWAY coded response"
+msgid "%s: Suspicious Customer Email Address"
+msgstr "%s: Suspicious Customer Email Address"
+
+#: includes/class.EwayPaymentsResponse.php:217
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Shipping Street"
+msgstr "%s: Invalid Shipping Street"
+
+#: includes/class.EwayPaymentsResponse.php:216
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Billing Street"
+msgstr "%s: Invalid Billing Street"
+
+#: includes/class.EwayPaymentsResponse.php:215
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Customer Last Name"
+msgstr "%s: Invalid Customer Last Name"
+
+#: includes/class.EwayPaymentsResponse.php:214
+msgctxt "eWAY coded response"
+msgid "%s: Multiple transactions for same credit card"
+msgstr "%s: Multiple transactions for same credit card"
+
+#: includes/class.EwayPaymentsResponse.php:213
+msgctxt "eWAY coded response"
+msgid "%s: Multiple transactions for same email address"
+msgstr "%s: Multiple transactions for same email address"
+
+#: includes/class.EwayPaymentsResponse.php:212
+msgctxt "eWAY coded response"
+msgid "%s: Multiple transactions for known credit card"
+msgstr "%s: Multiple transactions for known credit card"
+
+#: includes/class.EwayPaymentsResponse.php:211
+msgctxt "eWAY coded response"
+msgid "%s: Multiple transactions for new credit card"
+msgstr "%s: Multiple transactions for new credit card"
+
+#: includes/class.EwayPaymentsResponse.php:210
+msgctxt "eWAY coded response"
+msgid "%s: Multiple transactions for same email with known credit card"
+msgstr "%s: Multiple transactions for same email with known credit card"
+
+#: includes/class.EwayPaymentsResponse.php:209
+msgctxt "eWAY coded response"
+msgid "%s: Multiple transactions for same email with new credit card"
+msgstr "%s: Multiple transactions for same email with new credit card"
+
+#: includes/class.EwayPaymentsResponse.php:208
+msgctxt "eWAY coded response"
+msgid "%s: Multiple transactions for same address with new credit card"
+msgstr "%s: Multiple transactions for same address with new credit card"
+
+#: includes/class.EwayPaymentsResponse.php:207
+msgctxt "eWAY coded response"
+msgid "%s: Multiple transactions for same address with known credit card"
+msgstr "%s: Multiple transactions for same address with known credit card"
+
+#: includes/class.EwayPaymentsResponse.php:206
+msgctxt "eWAY coded response"
+msgid "%s: Transaction Declined"
+msgstr "%s: Transaction Declined"
+
+#: includes/class.EwayPaymentsResponse.php:205
+msgctxt "eWAY coded response"
+msgid "%s: Suspicious Customer Last Name"
+msgstr "%s: Suspicious Customer Last Name"
+
+#: includes/class.EwayPaymentsResponse.php:204
+msgctxt "eWAY coded response"
+msgid "%s: Suspicious Customer First Name"
+msgstr "%s: Suspicious Customer First Name"
+
+#: includes/class.EwayPaymentsResponse.php:203
+msgctxt "eWAY coded response"
+msgid "%s: Multiple locations for single email address"
+msgstr "%s: Multiple locations for single email address"
+
+#: includes/class.EwayPaymentsResponse.php:202
+msgctxt "eWAY coded response"
+msgid "%s: Multiple locations for single card number"
+msgstr "%s: Multiple locations for single card number"
+
+#: includes/class.EwayPaymentsResponse.php:201
+msgctxt "eWAY coded response"
+msgid "%s: Multiple email addresses for single location"
+msgstr "%s: Multiple email addresses for single location"
+
+#: includes/class.EwayPaymentsResponse.php:200
+msgctxt "eWAY coded response"
+msgid "%s: Multiple email addresses for single card number"
+msgstr "%s: Multiple email addresses for single card number"
+
+#: includes/class.EwayPaymentsResponse.php:199
+msgctxt "eWAY coded response"
+msgid "%s: Multiple card numbers for single location"
+msgstr "%s: Multiple card numbers for single location"
+
+#: includes/class.EwayPaymentsResponse.php:198
+msgctxt "eWAY coded response"
+msgid "%s: Multiple card numbers for single email address"
+msgstr "%s: Multiple card numbers for single email address"
+
+#: includes/class.EwayPaymentsResponse.php:197
+msgctxt "eWAY coded response"
+msgid "%s: High Risk Shipping Country"
+msgstr "%s: High Risk Shipping Country"
+
+#: includes/class.EwayPaymentsResponse.php:196
+msgctxt "eWAY coded response"
+msgid "%s: High Risk Email Address"
+msgstr "%s: High Risk Email Address"
+
+#: includes/class.EwayPaymentsResponse.php:195
+msgctxt "eWAY coded response"
+msgid "%s: High Risk Customer IP Address"
+msgstr "%s: High Risk Customer IP Address"
+
+#: includes/class.EwayPaymentsResponse.php:194
+msgctxt "eWAY coded response"
+msgid "%s: High Risk Credit Card Country"
+msgstr "%s: High Risk Credit Card Country"
+
+#: includes/class.EwayPaymentsResponse.php:193
+msgctxt "eWAY coded response"
+msgid "%s: High Risk Billing Country"
+msgstr "%s: High Risk Billing Country"
+
+#: includes/class.EwayPaymentsResponse.php:192
+msgctxt "eWAY coded response"
+msgid "%s: Custom Fraud Rule"
+msgstr "%s: Custom Fraud Rule"
+
+#: includes/class.EwayPaymentsResponse.php:191
+msgctxt "eWAY coded response"
+msgid "%s: Denied by PayPal Fraud Rules"
+msgstr "%s: Denied by PayPal Fraud Rules"
+
+#: includes/class.EwayPaymentsResponse.php:190
+msgctxt "eWAY coded response"
+msgid "%s: Denied Fraud"
+msgstr "%s: Denied Fraud"
+
+#: includes/class.EwayPaymentsResponse.php:189
+msgctxt "eWAY coded response"
+msgid "%s: Risk Score Fraud"
+msgstr "%s: Risk Score Fraud"
+
+#: includes/class.EwayPaymentsResponse.php:188
+msgctxt "eWAY coded response"
+msgid "%s: International Transaction Fraud"
+msgstr "%s: International Transaction Fraud"
+
+#: includes/class.EwayPaymentsResponse.php:187
+msgctxt "eWAY coded response"
+msgid "%s: Free Email Fraud"
+msgstr "%s: Free Email Fraud"
+
+#: includes/class.EwayPaymentsResponse.php:186
+msgctxt "eWAY coded response"
+msgid "%s: Transparent Proxy Fraud"
+msgstr "%s: Transparent Proxy Fraud"
+
+#: includes/class.EwayPaymentsResponse.php:185
+msgctxt "eWAY coded response"
+msgid "%s: Anonymous Proxy Fraud"
+msgstr "%s: Anonymous Proxy Fraud"
+
+#: includes/class.EwayPaymentsResponse.php:184
+msgctxt "eWAY coded response"
+msgid "%s: High Risk Country Fraud"
+msgstr "%s: High Risk Country Fraud"
+
+#: includes/class.EwayPaymentsResponse.php:183
+msgctxt "eWAY coded response"
+msgid "%s: Country Match Fraud"
+msgstr "%s: Country Match Fraud"
+
+#: includes/class.EwayPaymentsResponse.php:182
+msgctxt "eWAY coded response"
+msgid "%s: Challenged Fraud"
+msgstr "%s: Challenged Fraud"
+
+#: includes/class.EwayPaymentsResponse.php:181
+msgctxt "eWAY coded response"
+msgid "%s: Undefined Fraud Error"
+msgstr "%s: Undefined Fraud Error"
+
+#: includes/class.EwayPaymentsResponse.php:179
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Transaction for Auth/Void"
+msgstr "%s: Invalid Transaction for Auth/Void"
+
+#: includes/class.EwayPaymentsResponse.php:178
+msgctxt "eWAY coded response"
+msgid "%s: PayPal Create Transaction Error"
+msgstr "%s: PayPal Create Transaction Error"
+
+#: includes/class.EwayPaymentsResponse.php:177
+msgctxt "eWAY coded response"
+msgid "%s: MasterPass Error"
+msgstr "%s: MasterPass Error"
+
+#: includes/class.EwayPaymentsResponse.php:176
+#: includes/class.EwayPaymentsResponse.php:222
+msgctxt "eWAY coded response"
+msgid "%s: System Error"
+msgstr "%s: System Error"
+
+#: includes/class.EwayPaymentsResponse.php:175
+msgctxt "eWAY coded response"
+msgid "%s: Amex Declined"
+msgstr "%s: Amex Declined"
+
+#: includes/class.EwayPaymentsResponse.php:174
+msgctxt "eWAY coded response"
+msgid "%s: Duplicate Transaction"
+msgstr "%s: Duplicate Transaction"
+
+#: includes/class.EwayPaymentsResponse.php:173
+msgctxt "eWAY coded response"
+msgid "%s: Cannot Complete, Violation Of The Law"
+msgstr "%s: Cannot Complete, Violation Of The Law"
+
+#: includes/class.EwayPaymentsResponse.php:172
+msgctxt "eWAY coded response"
+msgid "%s: Unable To Route Transaction"
+msgstr "%s: Unable To Route Transaction"
+
+#: includes/class.EwayPaymentsResponse.php:171
+msgctxt "eWAY coded response"
+msgid "%s: Card Issuer Unavailable"
+msgstr "%s: Card Issuer Unavailable"
+
+#: includes/class.EwayPaymentsResponse.php:170
+msgctxt "eWAY coded response"
+msgid "%s: Cut off In Progress"
+msgstr "%s: Cut off In Progress"
+
+#: includes/class.EwayPaymentsResponse.php:169
+msgctxt "eWAY coded response"
+msgid "%s: CVV Validation Error"
+msgstr "%s: CVV Validation Error"
+
+#: includes/class.EwayPaymentsResponse.php:168
+msgctxt "eWAY coded response"
+msgid "%s: PIN Tries Exceeded"
+msgstr "%s: PIN Tries Exceeded"
+
+#: includes/class.EwayPaymentsResponse.php:167
+msgctxt "eWAY coded response"
+msgid "%s: Capture Card"
+msgstr "%s: Capture Card"
+
+#: includes/class.EwayPaymentsResponse.php:166
+msgctxt "eWAY coded response"
+msgid "%s: Acceptor Contact Acquirer, Security"
+msgstr "%s: Acceptor Contact Acquirer, Security"
+
+#: includes/class.EwayPaymentsResponse.php:165
+msgctxt "eWAY coded response"
+msgid "%s: Original Amount Incorrect"
+msgstr "%s: Original Amount Incorrect"
+
+#: includes/class.EwayPaymentsResponse.php:164
+msgctxt "eWAY coded response"
+msgid "%s: Security Violation"
+msgstr "%s: Security Violation"
+
+#: includes/class.EwayPaymentsResponse.php:163
+msgctxt "eWAY coded response"
+msgid "%s: Restricted Card"
+msgstr "%s: Restricted Card"
+
+#: includes/class.EwayPaymentsResponse.php:162
+msgctxt "eWAY coded response"
+msgid "%s: Exceeds Withdrawal Limit"
+msgstr "%s: Exceeds Withdrawal Limit"
+
+#: includes/class.EwayPaymentsResponse.php:161
+msgctxt "eWAY coded response"
+msgid "%s: Acceptor Contact Acquirer"
+msgstr "%s: Acceptor Contact Acquirer"
+
+#: includes/class.EwayPaymentsResponse.php:160
+msgctxt "eWAY coded response"
+msgid "%s: Suspected Fraud"
+msgstr "%s: Suspected Fraud"
+
+#: includes/class.EwayPaymentsResponse.php:159
+msgctxt "eWAY coded response"
+msgid "%s: Function Not Permitted to Terminal"
+msgstr "%s: Function Not Permitted to Terminal"
+
+#: includes/class.EwayPaymentsResponse.php:158
+msgctxt "eWAY coded response"
+msgid "%s: Function Not Permitted to Cardholder"
+msgstr "%s: Function Not Permitted to Cardholder"
+
+#: includes/class.EwayPaymentsResponse.php:157
+msgctxt "eWAY coded response"
+msgid "%s: No Card Record"
+msgstr "%s: No Card Record"
+
+#: includes/class.EwayPaymentsResponse.php:156
+msgctxt "eWAY coded response"
+msgid "%s: Incorrect PIN"
+msgstr "%s: Incorrect PIN"
+
+#: includes/class.EwayPaymentsResponse.php:155
+msgctxt "eWAY coded response"
+msgid "%s: Expired Card"
+msgstr "%s: Expired Card"
+
+#: includes/class.EwayPaymentsResponse.php:154
+msgctxt "eWAY coded response"
+msgid "%s: No Savings Account"
+msgstr "%s: No Savings Account"
+
+#: includes/class.EwayPaymentsResponse.php:153
+msgctxt "eWAY coded response"
+msgid "%s: No Check Account"
+msgstr "%s: No Cheque Account"
+
+#: includes/class.EwayPaymentsResponse.php:152
+msgctxt "eWAY coded response"
+msgid "%s: Insufficient Funds"
+msgstr "%s: Insufficient Funds"
+
+#: includes/class.EwayPaymentsResponse.php:151
+msgctxt "eWAY coded response"
+msgid "%s: Visa Checkout Transaction Error"
+msgstr "%s: Visa Checkout Transaction Error"
+
+#: includes/class.EwayPaymentsResponse.php:150
+msgctxt "eWAY coded response"
+msgid "%s: No Investment Account"
+msgstr "%s: No Investment Account"
+
+#: includes/class.EwayPaymentsResponse.php:149
+msgctxt "eWAY coded response"
+msgid "%s: Stolen Card"
+msgstr "%s: Stolen Card"
+
+#: includes/class.EwayPaymentsResponse.php:148
+msgctxt "eWAY coded response"
+msgid "%s: No Universal Account"
+msgstr "%s: No Universal Account"
+
+#: includes/class.EwayPaymentsResponse.php:147
+msgctxt "eWAY coded response"
+msgid "%s: Lost Card"
+msgstr "%s: Lost Card"
+
+#: includes/class.EwayPaymentsResponse.php:146
+msgctxt "eWAY coded response"
+msgid "%s: Function Not Supported"
+msgstr "%s: Function Not Supported"
+
+#: includes/class.EwayPaymentsResponse.php:145
+msgctxt "eWAY coded response"
+msgid "%s: No Credit Account"
+msgstr "%s: No Credit Account"
+
+#: includes/class.EwayPaymentsResponse.php:144
+msgctxt "eWAY coded response"
+msgid "%s: PIN Tries Exceeded, Capture"
+msgstr "%s: PIN Tries Exceeded, Capture"
+
+#: includes/class.EwayPaymentsResponse.php:143
+msgctxt "eWAY coded response"
+msgid "%s: Contact Acquirer Security Department, Retain Card"
+msgstr "%s: Contact Acquirer Security Department, Retain Card"
+
+#: includes/class.EwayPaymentsResponse.php:142
+msgctxt "eWAY coded response"
+msgid "%s: Restricted Card, Retain Card"
+msgstr "%s: Restricted Card, Retain Card"
+
+#: includes/class.EwayPaymentsResponse.php:141
+msgctxt "eWAY coded response"
+msgid "%s: Card Acceptor, Contact Acquirer, Retain Card"
+msgstr "%s: Card Acceptor, Contact Acquirer, Retain Card"
+
+#: includes/class.EwayPaymentsResponse.php:140
+msgctxt "eWAY coded response"
+msgid "%s: Suspected Fraud, Retain Card"
+msgstr "%s: Suspected Fraud, Retain Card"
+
+#: includes/class.EwayPaymentsResponse.php:139
+msgctxt "eWAY coded response"
+msgid "%s: Expired Card, Capture"
+msgstr "%s: Expired Card, Capture"
+
+#: includes/class.EwayPaymentsResponse.php:138
+msgctxt "eWAY coded response"
+msgid "%s: Bank Not Supported By Switch"
+msgstr "%s: Bank Not Supported By Switch"
+
+#: includes/class.EwayPaymentsResponse.php:137
+msgctxt "eWAY coded response"
+msgid "%s: Format Error"
+msgstr "%s: Format Error"
+
+#: includes/class.EwayPaymentsResponse.php:136
+msgctxt "eWAY coded response"
+msgid "%s: Unable to Locate Record On File"
+msgstr "%s: Unable to Locate Record On File"
+
+#: includes/class.EwayPaymentsResponse.php:135
+msgctxt "eWAY coded response"
+msgid "%s: Unacceptable Transaction Fee"
+msgstr "%s: Unacceptable Transaction Fee"
+
+#: includes/class.EwayPaymentsResponse.php:134
+msgctxt "eWAY coded response"
+msgid "%s: Suspected Malfunction"
+msgstr "%s: Suspected Malfunction"
+
+#: includes/class.EwayPaymentsResponse.php:133
+msgctxt "eWAY coded response"
+msgid "%s: No Action Taken"
+msgstr "%s: No Action Taken"
+
+#: includes/class.EwayPaymentsResponse.php:132
+msgctxt "eWAY coded response"
+msgid "%s: Re-enter Last Transaction"
+msgstr "%s: Re-enter Last Transaction"
+
+#: includes/class.EwayPaymentsResponse.php:131
+msgctxt "eWAY coded response"
+msgid "%s: No Issuer"
+msgstr "%s: No Issuer"
+
+#: includes/class.EwayPaymentsResponse.php:130
+#: includes/class.EwayPaymentsResponse.php:306
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Card Number"
+msgstr "%s: Invalid Card Number"
+
+#: includes/class.EwayPaymentsResponse.php:129
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Amount"
+msgstr "%s: Invalid Amount"
+
+#: includes/class.EwayPaymentsResponse.php:128
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Transaction"
+msgstr "%s: Invalid Transaction"
+
+#: includes/class.EwayPaymentsResponse.php:127
+msgctxt "eWAY coded response"
+msgid "%s: Request In Progress"
+msgstr "%s: Request In Progress"
+
+#: includes/class.EwayPaymentsResponse.php:126
+msgctxt "eWAY coded response"
+msgid "%s: Pick Up Card, Special"
+msgstr "%s: Pick Up Card, Special"
+
+#: includes/class.EwayPaymentsResponse.php:125
+msgctxt "eWAY coded response"
+msgid "%s: Error"
+msgstr "%s: Error"
+
+#: includes/class.EwayPaymentsResponse.php:124
+msgctxt "eWAY coded response"
+msgid "%s: Do Not Honor"
+msgstr "%s: Do Not Honour"
+
+#: includes/class.EwayPaymentsResponse.php:123
+msgctxt "eWAY coded response"
+msgid "%s: Pick Up Card"
+msgstr "%s: Pick Up Card"
+
+#: includes/class.EwayPaymentsResponse.php:122
+msgctxt "eWAY coded response"
+msgid "%s: No Merchant"
+msgstr "%s: No Merchant"
+
+#: includes/class.EwayPaymentsResponse.php:121
+msgctxt "eWAY coded response"
+msgid "%s: Refer to Issuer, special"
+msgstr "%s: Refer to Issuer, special"
+
+#: includes/class.EwayPaymentsResponse.php:120
+msgctxt "eWAY coded response"
+msgid "%s: Refer to Issuer"
+msgstr "%s: Refer to Issuer"
+
+#: includes/class.EwayPaymentsResponse.php:118
+msgctxt "eWAY coded response"
+msgid "%s: Approved, Update Track 3"
+msgstr "%s: Approved, Update Track 3"
+
+#: includes/class.EwayPaymentsResponse.php:117
+msgctxt "eWAY coded response"
+msgid "%s: Approved, VIP"
+msgstr "%s: Approved, VIP"
+
+#: includes/class.EwayPaymentsResponse.php:116
+msgctxt "eWAY coded response"
+msgid "%s: Approved For Partial Amount"
+msgstr "%s: Approved For Partial Amount"
+
+#: includes/class.EwayPaymentsResponse.php:115
+msgctxt "eWAY coded response"
+msgid "%s: Honor With Identification"
+msgstr "%s: Honour With Identification"
+
+#: includes/class.EwayPaymentsResponse.php:114
+msgctxt "eWAY coded response"
+msgid "%s: Transaction Approved"
+msgstr "%s: Transaction Approved"
+
+#. translators: 1. the error code; 2. the error message
+#: includes/class.EwayPaymentsPlugin.php:202
+#: includes/class.EwayPaymentsRapidAPI.php:709
+msgid "Error posting eWAY request: %1$s, %2$s"
+msgstr "Error posting eWAY request: %1$s, %2$s"
+
+#. translators: %s = the error code
+#: includes/class.EwayPaymentsPlugin.php:198
+#: includes/class.EwayPaymentsRapidAPI.php:696
+#: includes/class.EwayPaymentsRapidAPI.php:705
+msgid "Error posting eWAY request: %s"
+msgstr "Error posting eWAY request: %s"
+
+#: includes/class.EwayPaymentsPlugin.php:135
+msgctxt "plugin details links"
+msgid "Donate"
+msgstr "Donate"
+
+#: includes/class.EwayPaymentsPlugin.php:134
+msgctxt "plugin details links"
+msgid "Translate"
+msgstr "Translate"
+
+#: includes/class.EwayPaymentsPlugin.php:133
+msgctxt "plugin details links"
+msgid "Rating"
+msgstr "Rating"
+
+#: includes/class.EwayPaymentsPlugin.php:132
+msgctxt "plugin details links"
+msgid "Get help"
+msgstr "Get help"
+
+#: includes/class.EwayPaymentsPayment.php:469
+msgid "Invalid response from eWAY for legacy XML Direct payment"
+msgstr "Invalid response from eWAY for legacy XML Direct payment"
+
+#: includes/class.EwayPaymentsPayment.php:460
+#: includes/class.EwayPaymentsStoredPayment.php:430
+msgid "Error parsing eWAY response: %s"
+msgstr "Error parsing eWAY response: %s"
+
+#: includes/class.EwayPaymentsPayment.php:422
+#: includes/class.EwayPaymentsStoredPayment.php:392
+msgid "eWAY payment request returned nothing; please check your card details"
+msgstr "eWAY payment request returned nothing; please check your card details"
+
+#: includes/class.EwayPaymentsPayment.php:270
+#: includes/class.EwayPaymentsPayment.php:273
+#: includes/class.EwayPaymentsStoredPayment.php:257
+#: includes/class.EwayPaymentsStoredPayment.php:260
+msgid "card expiry can't be in the past"
+msgstr "card expiry can't be in the past"
+
+#: includes/class.EwayPaymentsPayment.php:257
+#: includes/class.EwayPaymentsPayment.php:266
+#: includes/class.EwayPaymentsStoredPayment.php:244
+#: includes/class.EwayPaymentsStoredPayment.php:253
+msgid "card expiry year must be a two or four digit year"
+msgstr "card expiry year must be a two or four digit year"
+
+#: includes/class.EwayPaymentsPayment.php:254
+#: includes/class.EwayPaymentsStoredPayment.php:241
+msgid "card expiry year cannot be empty"
+msgstr "card expiry year cannot be empty"
+
+#: includes/class.EwayPaymentsPayment.php:239
+#: includes/class.EwayPaymentsPayment.php:247
+#: includes/class.EwayPaymentsStoredPayment.php:226
+#: includes/class.EwayPaymentsStoredPayment.php:234
+msgid "card expiry month must be a number between 1 and 12"
+msgstr "card expiry month must be a number between 1 and 12"
+
+#: includes/class.EwayPaymentsPayment.php:236
+#: includes/class.EwayPaymentsStoredPayment.php:223
+msgid "card expiry month cannot be empty"
+msgstr "card expiry month cannot be empty"
+
+#: includes/class.EwayPaymentsPayment.php:230
+#: includes/class.EwayPaymentsStoredPayment.php:217
+#: includes/integrations/class.EwayPaymentsAWPCP3.php:209
+msgid "card number cannot be empty"
+msgstr "card number cannot be empty"
+
+#: includes/class.EwayPaymentsPayment.php:227
+#: includes/class.EwayPaymentsStoredPayment.php:214
+#: includes/integrations/class.EwayPaymentsAWPCP3.php:210
+msgid "card holder name cannot be empty"
+msgstr "card holder name cannot be empty"
+
+#: includes/class.EwayPaymentsPayment.php:221
+#: includes/class.EwayPaymentsRapidAPI.php:418
+#: includes/class.EwayPaymentsStoredPayment.php:208
+msgid "amount must be given as a number in dollars and cents"
+msgstr "amount must be given as a number in dollars and cents"
+
+#: includes/class.EwayPaymentsPayment.php:218
+#: includes/class.EwayPaymentsStoredPayment.php:205
+msgid "CustomerID cannot be empty"
+msgstr "CustomerID cannot be empty"
+
+#: includes/class.EwayPaymentsFormPost.php:108
+msgid "Please enter CVN (Card Verification Number)"
+msgstr "Please enter CVN (Card Verification Number)"
+
+#: includes/class.EwayPaymentsFormPost.php:103
+msgid "Credit card expiry has passed"
+msgstr "Credit card expiry has passed"
+
+#: includes/class.EwayPaymentsFormPost.php:94
+msgid "Please select credit card expiry year"
+msgstr "Please select credit card expiry year"
+
+#: includes/class.EwayPaymentsFormPost.php:88
+msgid "Please select credit card expiry month"
+msgstr "Please select credit card expiry month"
+
+#: includes/class.EwayPaymentsFormPost.php:84
+msgid "Please enter card holder name"
+msgstr "Please enter card holder name"
+
+#: includes/class.EwayPaymentsFormPost.php:80
+msgid "Please enter credit card number"
+msgstr "Please enter credit card number"

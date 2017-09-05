@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'tve-ff-2294-59474e5d279df';
+  src:  url('fonts/icomoon.eot?4qk6ge');
+  src:  url('fonts/icomoon.eot?4qk6ge#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?4qk6ge') format('truetype'),
+    url('fonts/icomoon.woff?4qk6ge') format('woff'),
+    url('fonts/icomoon.svg?4qk6ge#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="tve-icm-59474e5d29364-"], [class*="tve-icm-59474e5d29364-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'tve-ff-2294-59474e5d279df' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.tve-icm-59474e5d29364-office:before {
+  content: "\e903";
+}
+.tve-icm-59474e5d29364-cart:before {
+  content: "\e93a";
+}
+.tve-icm-59474e5d29364-user:before {
+  content: "\e971";
+}
+.tve-icm-59474e5d29364-users:before {
+  content: "\e972";
+}
+.tve-icm-59474e5d29364-user-plus:before {
+  content: "\e973";
+}
+.tve-icm-59474e5d29364-user-check:before {
+  content: "\e975";
+}
+.tve-icm-59474e5d29364-user-tie:before {
+  content: "\e976";
+}
+.tve-icm-59474e5d29364-share2:before {
+  content: "\ea82";
+}
+.tve-icm-59474e5d29364-mail2:before {
+  content: "\ea84";
+}
+.tve-icm-59474e5d29364-google-plus:before {
+  content: "\ea8b";
+}
+.tve-icm-59474e5d29364-google-plus2:before {
+  content: "\ea8c";
+}
+.tve-icm-59474e5d29364-facebook2:before {
+  content: "\ea91";
+}
+.tve-icm-59474e5d29364-instagram:before {
+  content: "\ea92";
+}
+.tve-icm-59474e5d29364-whatsapp:before {
+  content: "\ea93";
+}
+.tve-icm-59474e5d29364-rss:before {
+  content: "\ea9b";
+}
+.tve-icm-59474e5d29364-youtube:before {
+  content: "\ea9d";
+}
